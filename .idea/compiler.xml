@@ -10,6 +10,7 @@
         <module name="rabbitmq-spring" />
         <module name="rabbitmq-springboot-consumer" />
         <module name="rabbitmq-springboot-producer" />
+        <module name="rocketmq-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,15 @@
       <module name="rabbitmq-spring" target="1.8" />
       <module name="rabbitmq-springboot-consumer" target="1.8" />
       <module name="rabbitmq-springboot-producer" target="1.8" />
+      <module name="rocketmq-api" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq-spring" options="-parameters" />
+      <module name="rabbitmq-springboot-consumer" options="-parameters" />
+      <module name="rabbitmq-springboot-producer" options="-parameters" />
+      <module name="rocketmq-api" options="-parameters" />
+    </option>
   </component>
 </project>
