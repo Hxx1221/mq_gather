@@ -16,13 +16,13 @@ import java.util.List;
 public class Consumer {
     public static void main(String[] args) throws MQClientException {
 
-        DefaultMQPushConsumer defaultMQPushConsumer = new DefaultMQPushConsumer("test_quick_consumer");
+        DefaultMQPushConsumer defaultMQPushConsumer = new DefaultMQPushConsumer("test_quick_consumer1");
        // defaultMQPushConsumer.setMessageModel(MessageModel.CLUSTERING);//集群模式
         defaultMQPushConsumer.setMessageModel(MessageModel.BROADCASTING);
 
         defaultMQPushConsumer.setNamesrvAddr(Constants.NAMESRV_ADDR);
         defaultMQPushConsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
-        defaultMQPushConsumer.subscribe("test_quick_topic", "TagA||TagB");
+        defaultMQPushConsumer.subscribe("test_quick_topic", "TagB");
 
         defaultMQPushConsumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override

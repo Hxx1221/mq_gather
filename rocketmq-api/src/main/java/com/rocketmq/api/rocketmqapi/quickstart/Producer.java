@@ -26,7 +26,7 @@ public class Producer {
 
             Message message = new Message("test_quick_topic",//主题
                     tag,//标签
-                    "keyA" + i,//用户自定义的key 唯一的标识
+                    "keyA",//用户自定义的key 唯一的标识
                     ("hxxlakjsf" + i).getBytes());//消息内容实体
             //1.同步发送消息
 //            SendResult send = defaultMQProducer.send(message);
