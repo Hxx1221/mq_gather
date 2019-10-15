@@ -5,10 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq_gather.iml" filepath="$PROJECT_DIR$/mq_gather.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-api/rabbitmq-api.iml" filepath="$PROJECT_DIR$/rabbitmq-api/rabbitmq-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-spring/rabbitmq-spring.iml" filepath="$PROJECT_DIR$/rabbitmq-spring/rabbitmq-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq-spring/rabbitmq-spring.iml" filepath="$PROJECT_DIR$/rabbitmq-spring/rabbitmq-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-consumer/rabbitmq-springboot-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot-producer.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot-producer.iml" filepath="$PROJECT_DIR$/rabbitmq-springboot-producer/rabbitmq-springboot-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocketmq-api/rocketmq-api.iml" filepath="$PROJECT_DIR$/rocketmq-api/rocketmq-api.iml" />
     </modules>
